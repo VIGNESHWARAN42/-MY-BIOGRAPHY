@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Biography</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #fff3e0);
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 90%;
+      margin: 20px auto;
+    }
+
+    .section {
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      margin-bottom: 30px;
+      padding: 20px;
+      transition: transform 0.3s;
+    }
+
+    .section:hover {
+      transform: scale(1.02);
+    }
+
+    h2 {
+      color: #00796b;
+      text-shadow: 1px 1px 1px #aaa;
+    }
+
+    img {
+      width: 200px;
+      border-radius: 10px;
+      margin: 10px;
+      border: 3px solid #ff8a65;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 15px;
+    }
+
+    .profile {
+      background: rgba(129, 212, 250, 0.3);
+      color: #01579b;
+    }
+
+    .music {
+      background: rgba(255, 224, 178, 0.3);
+      color: #e65100;
+    }
+
+    .hobbies {
+      background: rgba(200, 230, 201, 0.3);
+      color: #2e7d32;
+    }
+
+    .food {
+      background: rgba(255, 204, 190, 0.3);
+      color: #d84315;
+    }
+
+    .places {
+      background: rgba(209, 196, 233, 0.3);
+      color: #6a1b9a;
+    }
+
+    .images {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Profile Section -->
+  <div class="section profile">
+    <h2>👤 Profile</h2>
+    <p><strong>Name:</strong> VIGNESHWARAN M</p>
+    <p><strong>Age:</strong> 21</p>
+    <p><strong>Profession:</strong> FILM MAKER</p>
+  </div>
+
+  <!-- Music Section -->
+  <div class="section music">
+    <h2>🎵 Favourite Music</h2>
+    <p>I enjoy listening to relaxing and upbeat music during work and leisure.</p>
+    <audio controls>
+      <source src="/Thala Kodhum.mp3">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <!-- Hobbies Section -->
+  <div class="section hobbies">
+    <h2>🏀 Hobbies</h2>
+    <p>Here are some of my favorite hobbies:</p>
+    <div class="images">
+      <div>
+        <img src="./cricket.gif"alt="cricket">
+        <p>cricket</p>
+      </div>
+      <div>
+        <img src="/travel.gif" alt="Traveling">
+        <p>Traveling</p>
+      </div>
+      <div>
+        <img src="cycling.gif" alt="Cycling">
+        <p>Cycling</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Food Section -->
+  <div class="section food">
+    <h2>🍔 Favourite Food</h2>
+    <p>Some of the dishes I love:</p>
+    <div class="images">
+      <div>
+        <img src="./biriyani.gif" alt="Biriyani">
+        <p>Biriyani</p>
+      </div>
+      <div>
+        <img src="panner.gif" alt="panner">
+        <p>panner</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tourist Places Section -->
+  <div class="section places">
+    <h2>✈️ Favourite Tourist Places</h2>
+    <p>Places I dream to visit or have enjoyed:</p>
+    <div class="images">
+      <div>
+        <img src="./idukki.jpg "alt="idukki">
+        <p>idukki</p>
+      </div>
+      <div>
+        <img src="./munnar.jpg" alt="munnar">
+        <p>Munnar</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
